@@ -22,6 +22,9 @@ if(BUILD_B)
 	target_sources(${PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src/b_impl.cpp")
 endif()
 
+get_target_property(assballs fetch_test COMPILE_DEFINITIONS)
+message("assballs: ${assballs}")
+
 ### INSTALLATION
 #include(GNUINstallDirs)
 #install(TARGETS fetch_test
