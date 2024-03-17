@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
 
 project(fetch_test LANGUAGES CXX)
 
-option(BUILD_A "Build A-libraries" ON)
-option(BUILD_B "Build B-libraries" ON)
+option(BUILD_A "Build A-libraries" OFF)
+option(BUILD_B "Build B-libraries" OFF)
 
 add_library(fetch_test SHARED)
 
