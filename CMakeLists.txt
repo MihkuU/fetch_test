@@ -23,7 +23,7 @@ if(BUILD_B)
 endif()
 
 get_target_property(assballs fetch_test COMPILE_DEFINITIONS)
-message("assballs: ${assballs}")
+message("shitballs: ${assballs}")
 
 ### INSTALLATION
 #include(GNUINstallDirs)
